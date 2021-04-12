@@ -11,6 +11,7 @@
 		57E8A6862608833700B02836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8A6852608833700B02836 /* ContentView.swift */; };
 		57E8A6882608833A00B02836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E8A6872608833A00B02836 /* Assets.xcassets */; };
 		57E8A68B2608833A00B02836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E8A68A2608833A00B02836 /* Preview Assets.xcassets */; };
+		57E8A694260883DA00B02836 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8A693260883DA00B02836 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		57E8A6872608833A00B02836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E8A68A2608833A00B02836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57E8A68C2608833A00B02836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E8A693260883DA00B02836 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				57E8A6832608833700B02836 /* _9_GameApp.swift */,
 				57E8A6852608833700B02836 /* ContentView.swift */,
+				57E8A693260883DA00B02836 /* Card.swift */,
 				57E8A6872608833A00B02836 /* Assets.xcassets */,
 				57E8A68C2608833A00B02836 /* Info.plist */,
 				57E8A6892608833A00B02836 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E8A6862608833700B02836 /* ContentView.swift in Sources */,
+				57E8A694260883DA00B02836 /* Card.swift in Sources */,
 				57E8A6842608833700B02836 /* _9_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +269,7 @@
 		57E8A6902608833A00B02836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"99_Game/Preview Content\"";
@@ -286,7 +290,7 @@
 		57E8A6912608833A00B02836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"99_Game/Preview Content\"";
